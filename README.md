@@ -43,5 +43,4 @@ Jangan ragu untuk membuka permintaan tarik jika anda menemukan kesalahan
 * Mastah diem yak, jangan dibuli, namanya juga pemula stah
 
 ## Thanks to
-* Hexagon (recode from)
 * ALL creator bot
