@@ -39,7 +39,6 @@ const { getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, banner, st
 const { webp2mp4File} = require('./lib/webp2mp4')
 const { recognize } = require('./lib/ocr')
 const { yta, ytv, igdl, upload } = require('./lib/ytdl')
-const voting = JSON.parse(fs.readFileSync('./lib/voting.json'))
 const { sleep, isAfk, cekafk, addafk } = require('./lib/offline')
 const afk = JSON.parse(fs.readFileSync('./lib/off.json'))
 
@@ -112,8 +111,7 @@ module.exports = lolikiller = async (lolikiller, loli) => {
 		const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
 		const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 		const isGroupAdmins = groupAdmins.includes(sender) || false
-        const isVote = isGroup ? voting.includes(from) : false
-        const conts = loli.key.fromMe ? lolikiller.user.jid : lolikiller.contacts[sender] || { notify: jid.replace(/@.+/, '') }
+       const conts = loli.key.fromMe ? lolikiller.user.jid : lolikiller.contacts[sender] || { notify: jid.replace(/@.+/, '') }
         const pushname = loli.key.fromMe ? lolikiller.user.name : conts.notify || conts.vname || conts.name || '-'
 
 
