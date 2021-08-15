@@ -290,8 +290,7 @@ module.exports = lolikiller = async (lolikiller, loli) => {
      	if (isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32mEXEC\x1b[1;37m]', time, color(command), 'from', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
       	//if (!isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mTEXT\x1b[1;37m]', time, color('Message'), 'from', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 	    
-    }
-}	
+    
         if (!loli.key.fromMe &&!isOwner && banChats === true) return
 switch (command) {
 	case 'tes':
