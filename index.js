@@ -289,51 +289,7 @@ module.exports = lolikiller = async (lolikiller, loli) => {
       	//if (!isGroup && !isCmd) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mTEXT\x1b[1;37m]', time, color('Message'), 'from', color(sender.split('@')[0]), 'args :', color(args.length))
      	if (isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32mEXEC\x1b[1;37m]', time, color(command), 'from', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
       	//if (!isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mTEXT\x1b[1;37m]', time, color('Message'), 'from', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
-	    if(isGroup && !isVote) {
-        if (budy.toLowerCase() === 'vote'){
-        let vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`))
-        let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`))  
-        let fil = vote.map(v => v.participant)
-        let id_vote = sender ? sender : '6285751056816@s.whatsapp.net'
-        if(fil.includes(id_vote)) {
-        return mentions('@'+sender.split('@')[0]+' Anda sudah vote', fil, true)
-        } else {
-        vote.push({
-            participant: id_vote,
-            voting: '✅'
-        })
-        fs.writeFileSync(`./lib/${from}.json`,JSON.stringify(vote))
-        let _p = []
-        let _vote = '*Vote* '+ '@'+ _votes[0].votes.split('@')[0] + `\n\n*Alasan*: ${_votes[0].reason}\n*Jumlah Vote* : ${vote.length} Vote\n*Durasi* : ${_votes[0].durasi} Menit\n\n` 
-        for(let i = 0; i < vote.length; i++) {
-        _vote +=  `@${vote[i].participant.split('@')[0]}\n*Vote* : ${vote[i].voting}\n\n`
-        _p.push(vote[i].participant)
-        }  
-        _p.push(_votes[0].votes)
-        mentions(_vote,_p,true)   
-        }
-        } else if (budy.toLowerCase() === 'devote'){
-        const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`))
-        let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`))  
-        let fil = vote.map(v => v.participant)
-        let id_vote = sender ? sender : '6285751056816@s.whatsapp.net'
-        if(fil.includes(id_vote)) {
-        return mentions('@'+sender.split('@')[0]+' Anda sudah vote', fil, true)
-        } else {
-        vote.push({
-            participant: id_vote,
-            voting: '❌'
-        })
-        fs.writeFileSync(`./lib/${from}.json`,JSON.stringify(vote))
-        let _p = []
-        let _vote = '*Vote* '+ '@'+ _votes[0].votes.split('@')[0] + `\n\n*Alasan*: ${_votes[0].reason}\n*Jumlah Vote* : ${vote.length} Vote\n*Durasi* : ${_votes[0].durasi} Menit\n\n` 
-        for(let i = 0; i < vote.length; i++) {
-        _vote +=  `@${vote[i].participant.split('@')[0]}\n*Vote* : ${vote[i].voting}\n\n`
-        _p.push(vote[i].participant)
-        }  
-        _p.push(_votes[0].votes)
-        mentions(_vote,_p,true)   
-        }
+	    
     }
 }	
         if (!loli.key.fromMe &&!isOwner && banChats === true) return
