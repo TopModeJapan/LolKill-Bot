@@ -14,7 +14,7 @@
 <a href="https://github.com/LoliKillers/LolKill-Bot/graphs/contributors" alt="𝑪𝒐𝒏𝒕𝒓𝒊𝒃𝒖𝒕𝒐𝒓"> <img src="https://img.shields.io/github/contributors/LoliKillers/LolKill-Bot?style=flat&logo=github" /> </a>
 <a href="https://github.com/LoliKillers/LolKill-Bot/network/members" alt="𝑭𝒐𝒓𝒌𝒔"> <img src="https://img.shields.io/github/forks/LoliKillers/LolKill-Bot?label=Forks&logo=github" /> </a>
 <a href="https://github.com/LoliKillers/LolKill-Bot" alt="𝑪𝒍𝒐𝒔𝒔𝒆𝒅 𝑷𝒖𝒍𝒍 𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒔"> <img src="https://img.shields.io/github/issues-pr-closed-raw/LoliKillers/LolKill-Bot?color=success" /> </a>
-<a href="https://github.com/LoliKillers/LolKill-Bot" alt="𝑰𝒔𝒔𝒖𝒆"> <img src="https://img.shields.io/github/issues-raw/LoliKillers/Bmo-Bot?style=flat&logo=github&color=yellow" /> </a>
+<a href="https://github.com/LoliKillers/LolKill-Bot" alt="𝑰𝒔𝒔𝒖𝒆"> <img src="https://img.shields.io/github/issues-raw/LoliKillers/LolKill-Bot?style=flat&logo=github&color=yellow" /> </a>
 </p>
 </div>
 
