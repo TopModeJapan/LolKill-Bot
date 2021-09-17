@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://wallpapercave.com/wp/wp5683626.jpg">
+  <img src="https://www.wallpaperflare.com/anime-manga-anime-girls-loli-illustration-minimalism-monochrome-wallpaper-gjeld">
 </p>
 
-# Loli Killers - Self Bot
+# Loli Killers - Bot
 
 <p align="center">
 ☆ " Hanya beberapa kode yang merupakan bot untuk bersenang-senang! " ☆
@@ -17,22 +17,22 @@ $ pkg install bash -y
 $ pkg install git -y
 ```
 
-Jangan sungkan untuk bertanya bila anda masih bingung anda bisa menghubungi saya di [whats'app](https://wa.me/6283803728334)
+Jangan sungkan untuk bertanya bila anda masih bingung anda bisa menghubungi saya di [whats'app](https://wa.me/6285785445412)
 
-## Install LolKill Self Bot
+## Install LolKill Bot
 
 ```sh
-$ git clone https://github.com/LoliKillers/LolKill-Self
-$ cd LolKill-Self
+$ git clone https://github.com/LoliKillers/LolKill-Bot
+$ cd LolKill-Bot
 $ npm install
-$ npm start/node index.js
+$ node lolkill.js
 ```
 
 ## Menjalankan ulang self bot
 
 ```sh
-$ cd LolKill-Self
-$ npm start/node index.js
+$ cd LolKill-Bot
+$ node lolkill.js
 ```
 
 ## Credits 📍
