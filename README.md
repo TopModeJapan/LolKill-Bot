@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.wallpaperflare.com/anime-manga-anime-girls-loli-illustration-minimalism-monochrome-wallpaper-gjeld">
+  <img src="https://telegra.ph/file/8e9608b31ab35cdd11c63.jpg">
 </p>
 
 # Loli Killers - Bot
